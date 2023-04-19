@@ -3,9 +3,8 @@
 function renderLicenseBadge(license) {
   if (license.length > 0 && license[0] !== "none") {
     return `![Github license](https://img.shields.io/badge/license-${license}-brightgreen)`;
-  } else {
-    return "";
   }
+  return "";
 }
 
 // TODO: Create a function that returns the license link
@@ -33,7 +32,7 @@ ${data.description}
 ## Deployed Application URL
 ${data.link}
 ## Screenshot
-![alt-text](${data.screenshot})
+![website-screenshot](${data.screenshot})
 ## Table of Contents
 * [Installation](#installation)
 * [Usage](#usage)
@@ -51,9 +50,9 @@ ${data.test}
 ## Questions
 Please send your questions [here](mailto:${
     data.email
-  }?subject=[GitHub]%20README%20Generator) or visit [github/${
-    data.creator
-  }](https://github.com/${data.creator}).
+  }?subject=[GitHub]%20README%20Generator) or visit the [GitHub repo.](${
+    data.githubRepo
+  }).
 ${renderLicenseSection(data.license)}
 `;
 }
