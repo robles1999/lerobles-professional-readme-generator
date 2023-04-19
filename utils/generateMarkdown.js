@@ -33,8 +33,6 @@ function generateMarkdown(data) {
 ${renderLicenseBadge(data.license)}
 ## Description
 ${data.description}
-## Deployed Application URL
-${data.link}
 ## Screenshot
 ![website-screenshot](${data.screenshot})
 ## Table of Contents
