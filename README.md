@@ -11,6 +11,7 @@ undefined
 * [Usage](#usage)
 * [Contributors](#contributors)
 * [Testing](#testing)
+* [License](#license)
 * [Questions](#questions)
 ## Installation
 n/a
@@ -21,7 +22,7 @@ n/a
 ## Testing
 n/a
 ## Questions
-Please send your questions [here](mailto:n/a?subject=[GitHub]%20README%20Generator) or visit [the GitHub repo.](https://github.com/robles1999/lerobles-professional-readme-generator).
+Please send your questions [here](mailto:n/a?subject=[GitHub]%20README%20Generator) or visit the [GitHub repo.](n/a).
 ## License
     Licensed under the MIT license.
     
